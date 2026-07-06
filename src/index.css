@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Special+Elite&family=Courier+Prime:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Crimson Text', Georgia, serif;
+}
+
+/* Cork board background */
+.bg-cork {
+  background-color: #2d3a2d;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E"),
+    linear-gradient(135deg, rgba(0,0,0,0.15) 0%, transparent 50%, rgba(0,0,0,0.15) 100%);
+}
+
+/* Cork board card texture */
+.bg-cork-card {
+  background: linear-gradient(135deg, #5a4a3a 0%, #4a3a2a 50%, #5a4a3a 100%);
+  position: relative;
+}
+.bg-cork-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23n)' opacity='0.12'/%3E%3C/svg%3E");
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+/* Manila folder card */
+.manila-folder {
+  background: linear-gradient(135deg, #f5e6c8 0%, #e8d5a8 50%, #d4c08a 100%);
+  border: 1px solid #b8a06a;
+  box-shadow: 
+    2px 3px 10px rgba(0,0,0,0.3),
+    inset 0 0 15px rgba(180,160,100,0.2);
+  position: relative;
+}
+.manila-folder::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.5' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='150' height='150' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
+  pointer-events: none;
+  border-radius: inherit;
+}
+.manila-folder:hover {
+  box-shadow: 
+    3px 5px 15px rgba(0,0,0,0.4),
+    inset 0 0 20px rgba(180,160,100,0.3);
+  transform: translateY(-2px);
+}
+
+/* Push pin */
+.push-pin {
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle at 30% 30%, #ff4444, #cc0000, #880000);
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 -2px 4px rgba(0,0,0,0.3), inset 0 2px 4px rgba(255,255,255,0.2);
+  position: relative;
+}
+.push-pin::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+  height: 6px;
+  background: radial-gradient(circle at 30% 30%, #ffffff, #cccccc);
+  border-radius: 50%;
+}
+
+/* Dossier paper */
+.dossier-paper {
+  background: linear-gradient(135deg, #f5f0e1 0%, #e8e0c8 50%, #f5f0e1 100%);
+  position: relative;
+}
+.dossier-paper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.6' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='150' height='150' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+/* Push pin */
+.push-pin {
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle at 30% 30%, #ff4444, #cc0000, #880000);
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 -2px 4px rgba(0,0,0,0.3), inset 0 2px 4px rgba(255,255,255,0.2);
+  position: relative;
+}
+.push-pin::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+  height: 6px;
+  background: radial-gradient(circle at 30% 30%, #ffffff, #cccccc);
+  border-radius: 50%;
+}
+
+/* Line types */
+.line-bloodline {
+  stroke: #8b4513;
+  stroke-width: 2;
+  stroke-opacity: 0.8;
+}
+
+.line-marriage {
+  stroke: #c9a84c;
+  stroke-width: 2;
+  stroke-dasharray: 8 4;
+  stroke-opacity: 0.8;
+}
+
+.line-killed {
+  stroke: #cc0000;
+  stroke-width: 4;
+  stroke-opacity: 0.9;
+  filter: drop-shadow(0 0 3px rgba(204,0,0,0.5));
+}
+
+/* Murdered card glow */
+.murdered-glow {
+  box-shadow: 0 0 15px rgba(204, 0, 0, 0.4), 0 0 30px rgba(204, 0, 0, 0.2);
+}
+
+/* Murdered shake animation */
+@keyframes murderShake {
+  0%, 100% { transform: translate(-50%, -50%) rotate(0deg); }
+  10% { transform: translate(-50%, -50%) rotate(-1deg); }
+  20% { transform: translate(-50%, -50%) rotate(1deg); }
+  30% { transform: translate(-50%, -50%) rotate(-1deg); }
+  40% { transform: translate(-50%, -50%) rotate(1deg); }
+  50% { transform: translate(-50%, -50%) rotate(0deg); }
+}
+
+.murder-shake:hover {
+  animation: murderShake 0.3s ease-in-out;
+}
+
+/* Scroll unfurl animation */
+@keyframes scrollUnfurl {
+  0% {
+    max-height: 0;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  50% {
+    transform: scaleY(1.02);
+  }
+  100% {
+    max-height: 80vh;
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+.scroll-unfurl {
+  animation: scrollUnfurl 0.5s ease-out;
+}
+
+/* Wax seal break animation */
+@keyframes sealBreak {
+  0% { transform: scale(1) rotate(0deg); opacity: 1; }
+  50% { transform: scale(1.2) rotate(10deg); opacity: 0.8; }
+  100% { transform: scale(0.8) rotate(-5deg); opacity: 0; }
+}
+
+.seal-break {
+  animation: sealBreak 0.4s ease-out forwards;
+}
+
+/* Classification stamps */
+.stamp {
+  position: absolute;
+  border: 3px solid;
+  padding: 4px 12px;
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transform: rotate(-12deg);
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.stamp-classified {
+  border-color: #cc0000;
+  color: #cc0000;
+}
+
+.stamp-topsecret {
+  border-color: #ff6600;
+  color: #ff6600;
+  transform: rotate(8deg);
+}
+
+.stamp-declassified {
+  border-color: #228b22;
+  color: #228b22;
+  transform: rotate(-5deg);
+}
+
+/* Top secret tape */
+.top-secret-tape {
+  background: repeating-linear-gradient(
+    45deg,
+    #ffcc00,
+    #ffcc00 10px,
+    #1a1a1a 10px,
+    #1a1a1a 20px
+  );
+  padding: 4px 20px;
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  font-weight: 900;
+  color: #1a1a1a;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+/* Paperclip */
+.paperclip {
+  position: absolute;
+  top: -8px;
+  right: 16px;
+  width: 24px;
+  height: 40px;
+  border: 2px solid #888;
+  border-radius: 12px 12px 0 0;
+  border-bottom: none;
+  transform: rotate(5deg);
+}
+.paperclip::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 4px;
+  width: 14px;
+  height: 20px;
+  border: 2px solid #888;
+  border-radius: 0 0 8px 8px;
+  border-top: none;
+}
+
+/* Burnt edge effect */
+.burnt-edge {
+  position: relative;
+}
+.burnt-edge::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.3);
+  pointer-events: none;
+}
+
+/* Dossier header */
+.dossier-header {
+  background: linear-gradient(180deg, #2d3a2d 0%, #1a241a 100%);
+  border-bottom: 2px solid #cc0000;
+  padding: 12px 16px;
+}
+
+/* Scroll animation */
+@keyframes unroll {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+  to {
+    max-height: 80vh;
+    opacity: 1;
+  }
+}
+
+.animate-unroll {
+  animation: unroll 0.4s ease-out;
+}
+
+/* Pin drop animation */
+@keyframes pinDrop {
+  0% { transform: scale(1.5) translateY(-20px); opacity: 0; }
+  60% { transform: scale(0.9) translateY(0); opacity: 1; }
+  100% { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+.animate-pin {
+  animation: pinDrop 0.3s ease-out;
+}
+
+/* Card hover - highlight connected lines */
+.card-highlight .line-bloodline,
+.card-highlight .line-marriage,
+.card-highlight .line-killed {
+  opacity: 0.2;
+}
+
+.card-highlight .line-connected {
+  opacity: 1;
+  stroke-width: 4;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a241a;
+}
+::-webkit-scrollbar-thumb {
+  background: #3d4a3d;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cc0000;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 100;
+  background: rgba(26, 36, 26, 0.9);
+  border: 1px solid rgba(204, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-family: 'Courier Prime', monospace;
+  font-size: 10px;
+  color: #f5f0e1;
+}

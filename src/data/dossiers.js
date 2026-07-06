@@ -1,0 +1,202 @@
+export const dossiers = {
+  iyoasI: {
+    reignSummary: "Last emperor before the era collapsed. Came to throne as a child. Grew up speaking Oromo instead of Amharic. The nobles called it heresy.",
+    riseToPower: "Inherited throne at age ~10 after his father Iyasu II died in 1755. Legitimate heir. Clean succession — but his mother Wubit and grandmother Mentewab immediately went to war over who would control him.",
+    deathDetail: "Strangled on May 7, 1769 by order of Ras Mikael Sehul. First time in Ethiopian history an emperor was removed by force rather than dying naturally or in battle. His murder is the official start of ዘመነ መሳፍንት.",
+    weirdStory: "He spoke Oromo fluently and preferred Oromo dress and customs over Amharic ones. The Amhara-Tigray nobles accused him of abandoning Christianity and used it as the excuse to murder him. He was killed for speaking the wrong language.",
+    plots: "Ras Mikael Sehul spent years building a case against him. Iyoas secretly contacted the Oromo lord Fasil to counter Mikael — Mikael found out, presented the letters to the nobility as treason, and used it to justify the murder.",
+    wars: "Iyoas tried to use his Oromo relatives as a counter-force against the nobles. He promoted his Oromo uncle Lubo as governor of Amhara — public outrage forced him to reverse it.",
+    achievements: "None recorded. He had no real power and an empty treasury from day one.",
+    children: "None recorded.",
+    controlledBy: "Ras Mikael Sehul"
+  },
+  yohannesII: {
+    reignSummary: "5 months. Hated every second of it. Begged to go back to prison. Murdered at breakfast.",
+    riseToPower: "Dragged out of Mount Wehni mountain prison at age 70+ by Ras Mikael Sehul immediately after Iyoas was strangled. When a council member pointed out he was missing a hand, Mikael said: \"If he needs help mounting his horse, I will help him myself.\" Crowned the next day.",
+    deathDetail: "Poisoned at breakfast by order of Ras Mikael Sehul. Mikael was preparing to march to war and feared leaving such a passive, uncontrollable king in Gondar alone. Murdered October 18, 1769.",
+    weirdStory: "He had one hand — cut off as punishment for trying to escape Mount Wehni prison years earlier. He refused to march with armies, hid from his duties, and literally sent messages begging Mikael to send him back to prison. Mikael murdered him instead of granting his wish.",
+    plots: "Mikael controlled everything. There were no real plots against Yohannes II — he was too powerless to attract plotters. Mikael simply decided he was inconvenient and had him killed.",
+    wars: "Refused to participate in any military activity. Hid when armies marched.",
+    achievements: "Married Waletta Selassie (Mikael Sehul's granddaughter) during his 5-month reign. That is the only recorded act.",
+    children: "Tekle Haymanot II — who became the next emperor, born in Mount Wehni prison.",
+    controlledBy: "Ras Mikael Sehul"
+  },
+  tekleHaymanotII: {
+    reignSummary: "Enthroned at 15. Completely controlled by Ras Mikael Sehul. Despite turmoil, 7 churches were built during his reign in Gondar.",
+    riseToPower: "Installed by Ras Mikael Sehul immediately after his father Yohannes II was poisoned. He was born inside Mount Wehni prison. James Bruce met him and described him as strikingly handsome with extraordinary pale skin \"for such are all those princes born in the mountain.\"",
+    deathDetail: "Deposed April 13, 1777. Rival warlords (Fasil, Goshu, Hailu Eshte) finally defeated Ras Mikael Sehul in battle and removed Tekle Haymanot along with him. He died shortly after, September 7, 1777.",
+    weirdStory: "He was born inside a prison on a mountain. James Bruce described him as having almost European complexion because the mountain prisoners never saw sun. Bruce said \"his features, even in Europe, would have been thought fine.\" A prison-born boy, called beautiful by a European explorer, made emperor at 15.",
+    plots: "Fasil (the Oromo lord Iyoas had tried to ally with) spent years fighting Ras Mikael. Mikael defeated Fasil at the Battle of Faggeta December 1769. But Fasil kept fighting until he finally won.",
+    wars: "Ras Mikael fought Fasil repeatedly on Tekle Haymanot's behalf. The Three Battles of Sarbakusa (1771) ended with Mikael's defeat and surrender. Tekle Haymanot was then captured by Wand Bewossen while eating — literally surprised at a meal.",
+    achievements: "7 churches built in Gondar during his reign. The most important: Ba'eta Maryam (1775) with a bronze cross that towered over all of Gondar.",
+    children: "None recorded.",
+    controlledBy: "Ras Mikael Sehul"
+  },
+  susenyosII: {
+    reignSummary: "Made emperor briefly in 1770 by rival warlords while Mikael and Tekle Haymanot were away in Tigray. Removed when they returned. Later made emperor again 1779. Lost it again.",
+    riseToPower: "Rival warlords in Gondar enthroned him in 1770 opportunistically while Ras Mikael was absent. Mikael returned, retook the city, had Susenyos removed and others executed. Made emperor a second time in 1779 by different warlords.",
+    deathDetail: "After his second deposition, he was stripped completely naked, given only a rag to cover himself and a horse, and dismissed to \"seek his fortune.\" He eventually fell into enemy hands and was made a slave in the palace kitchen. He was caught stealing and hanged.",
+    weirdStory: "Emperor → naked → horse → kitchen slave → hanged for stealing. This entire arc happened to one man. A crowned emperor ended his life hanged for theft in a palace kitchen.",
+    plots: "Wand Bewossen captured him after the Three Battles of Sarbakusa and delivered him in chains to Tekle Haymanot.",
+    wars: "None while emperor — he was always gone before any fighting happened.",
+    achievements: "None.",
+    children: "None recorded.",
+    controlledBy: "Wand Bewossen"
+  },
+  tekleGiyorgisI: {
+    reignSummary: "The most deposed and re-enthroned emperor in Ethiopian history. Six times crowned. Six times removed. Average reign: less than one year each time.",
+    riseToPower: "First placed on throne 1779 by Ras Haile Yosadiq and others after deposing Tekle Haymanot II. Each subsequent restoration came through opportunistic pacts with whichever warlord coalition needed a legitimate face.",
+    deathDetail: "Died naturally around 1800 after his sixth and final deposition. One of the few emperors of the era who was not murdered.",
+    weirdStory: "Six times. SIX. Different warlords kept putting him back on the throne because his bloodline was legitimate but he was weak enough to control. He was a human rubber stamp they kept recycling. During one reign his army mutinied at a river crossing and refused to go further — he had to turn back within days.",
+    plots: "Too many to list. Every major warlord of the era — Fasil, Goshu, Hailu Eshte, Wand Bewossen, Ras Haile Yosadiq — either put him on the throne or removed him at least once.",
+    wars: "Launched a military expedition into Wollo 1783. Defeated the Oromo at Wuchale March 1782. Also defeated at Afarwanat and exiled to Ambasell after being outwitted by rival warlords.",
+    achievements: "Ordered construction of Debre Metmaq Maryam church in Gondar — the last example of imperial church patronage in Gondar in that century.",
+    children: "Unknown.",
+    controlledBy: "Various warlords"
+  },
+  salomonII: {
+    reignSummary: "Brief. Placed by Ras Haile Yosadiq after removing Tekle Haymanot II. Reportedly blinded before being deposed.",
+    riseToPower: "Son of Adigo, grandson of Iyasu II by his imprisoned Amhara first wife. His grandmother had been locked in Wehni fortress by Mentewab. Despite that, his bloodline survived and warlords found him useful.",
+    deathDetail: "Deposed 1779. A confusing chronicle suggests he was blinded before removal. The traveler Henry Salt found him still alive during his visit of 1809/1810 — so he survived his deposition for decades.",
+    weirdStory: "His grandmother was imprisoned in a mountain fortress as a child so she could never compete for the throne. Thirty years later her grandson sat on the throne anyway. Mentewab's plan failed across generations.",
+    plots: "Ras Haile Yosadiq controlled him completely. When Tekle Giyorgis I was preferred by other warlords, Solomon was simply swapped out.",
+    wars: "None recorded.",
+    achievements: "Built Qeddus Fasilides church in Gondar according to one chronicler.",
+    children: "Unknown.",
+    controlledBy: "Ras Haile Yosadiq"
+  },
+  iyasuIII: {
+    reignSummary: "Four years. One of the longer reigns of the era but almost nothing is recorded about what actually happened.",
+    riseToPower: "Placed on throne by warlord coalition after Tekle Giyorgis I's first removal. Solomonic bloodline maintained.",
+    deathDetail: "Deposed 1788 when warlords decided to restore Tekle Giyorgis I for his second reign. Fate after deposition unknown.",
+    weirdStory: "So little is recorded of his reign that historians call it a blank. An emperor ruled for 4 years and left almost no trace in the chronicles. The warlords simply didn't think he was worth writing about.",
+    plots: "Surrounded by the same warlords (Fasil, Goshu) who controlled all emperors of this era.",
+    wars: "None recorded.",
+    achievements: "None recorded.",
+    children: "Unknown.",
+    controlledBy: "Ras Ali I"
+  },
+  hezqeyas: {
+    reignSummary: "So brief his reign dates are disputed. Some sources don't even list him. He existed. Barely.",
+    riseToPower: "Enthroned by a faction of warlords during the chaotic period when at least five simultaneous emperor-claimants existed at one point in 1789.",
+    deathDetail: "Removed almost immediately. Fate unknown.",
+    weirdStory: "At one point in 1789 there were FIVE people simultaneously claiming to be emperor of Ethiopia. Hezekeyas was one of them. The throne meant so little that five men could claim it at the same time and nobody could definitively say who was right.",
+    plots: "Everything was a plot at this point.",
+    wars: "None.",
+    achievements: "None.",
+    children: "Unknown.",
+    controlledBy: "Various factions"
+  },
+  egwaleSeyon: {
+    reignSummary: "17 years — one of the longest of the era. But entirely controlled by the Yejju Oromo regents Ras Ali I and then Ras Aligaz.",
+    riseToPower: "Placed on throne by Ras Ali I of the Yejju Wara Sheh dynasty who now dominated the regency. The Yejju were consolidating total control of the imperial court.",
+    deathDetail: "Deposed 1818. Survived his deposition. Died naturally.",
+    weirdStory: "During his long reign the Yejju Oromo were so confident in their control that they barely bothered to manage him actively. He was left to sit on the throne like furniture while real governance happened elsewhere. The longest-reigning puppet.",
+    plots: "Ras Ali I then Ras Aligaz held all real power. No noble was willing to challenge the Yejju this era.",
+    wars: "Various Yejju campaigns fought in his name, not by him.",
+    achievements: "His long stable placement helped Yejju Oromo consolidate power across northern Ethiopia.",
+    children: "Unknown.",
+    controlledBy: "Ras Ali I / Ras Aligaz"
+  },
+  iyoasII: {
+    reignSummary: "3 years. Placed and removed by the Yejju Oromo regents.",
+    riseToPower: "Installed by Ras Aligaz after Egwale Seyon's removal. Standard Yejju puppet installation.",
+    deathDetail: "Deposed 1821. Fate unknown.",
+    weirdStory: "By this point in the era, installing and removing emperors had become so routine that the chronicles barely note it. Iyoas II is mentioned in fewer sentences than most minor servants of the era.",
+    plots: "Ras Aligaz controlled everything. After Aligaz died, power passed to Ras Wolde Selassie of Tigray who briefly broke Yejju dominance.",
+    wars: "None by emperor personally.",
+    achievements: "None recorded.",
+    children: "Unknown.",
+    controlledBy: "Ras Aligaz"
+  },
+  gigar: {
+    reignSummary: "Two separate reigns. First reign under Ras Wolde Selassie of Tigray who briefly wrested the regency from the Yejju.",
+    riseToPower: "Installed by Ras Wolde Selassie during the Tigrayan warlord's brief takeover of the regency from the Yejju.",
+    deathDetail: "Deposed after first reign when Yejju reasserted control under Ras Gugsa. Briefly restored 1830. Died or deposed again shortly after.",
+    weirdStory: "He was emperor under a Tigrayan warlord, then removed, then made emperor again under a different warlord. He was recycled like Tekle Giyorgis — useful face, no real power.",
+    plots: "The great contest between Ras Wolde Selassie (Tigray) and Ras Gugsa (Yejju/Begemder) fought using Gigar and other emperors as legitimizing pawns.",
+    wars: "Ras Wolde Selassie and Ras Gugsa fought fierce campaigns 1820s over control of the figurehead emperor.",
+    achievements: "None recorded.",
+    children: "Unknown.",
+    controlledBy: "Ras Wolde Selassie / Ras Gugsa"
+  },
+  baedaMaryamIII: {
+    reignSummary: "Extremely brief. Installed between other reigns as a transitional puppet when factions couldn't agree on a candidate.",
+    riseToPower: "Placed by Ras Gugsa during the Yejju's reassertion of control over the regency in the 1820s.",
+    deathDetail: "Removed almost immediately when Gigar was restored. Fate unknown.",
+    weirdStory: "So brief that his reign is sometimes omitted from lists entirely. A placeholder emperor. A human comma between two other reigns.",
+    plots: "Ras Gugsa vs Ras Wolde Selassie power struggle — Baeda Maryam was a chess piece in that game.",
+    wars: "None.",
+    achievements: "None.",
+    children: "Unknown.",
+    controlledBy: "Ras Gugsa"
+  },
+  salomonIII: {
+    reignSummary: "Two brief reigns in the chaotic late 1790s when warlord coalitions kept shifting rapidly.",
+    riseToPower: "Installed during the turbulent late 1790s period of constant warlord realignment.",
+    deathDetail: "Deposed twice. Fate after final deposition unknown.",
+    weirdStory: "The 1790s were so chaotic that some years saw 2–3 emperors installed and removed. Solomon III was one of several emperors recycled during this period as if the throne was a chair being passed around a room.",
+    plots: "Multiple competing warlord factions constantly shifting alliances.",
+    wars: "None personally.",
+    achievements: "None recorded.",
+    children: "Unknown.",
+    controlledBy: "Various factions"
+  },
+  dewetros: {
+    reignSummary: "One year. Nothing notable recorded.",
+    riseToPower: "Installed during the late-1790s chaos by whichever faction held Gondar at that moment.",
+    deathDetail: "Removed 1800. Fate unknown.",
+    weirdStory: "His reign is so undocumented that historians debate whether some of the events attributed to him actually belong to Solomon III or Tekle Giyorgis I's later reigns.",
+    plots: "Standard late-1790s warlord chaos.",
+    wars: "None recorded.",
+    achievements: "None.",
+    children: "Unknown.",
+    controlledBy: "Various factions"
+  },
+  yohannesIII: {
+    reignSummary: "11 years — long reign but entirely under Ras Ali II's Yejju control. The last emperor before Tewodros II ended the era.",
+    riseToPower: "Installed by Ras Ali II who was the final Yejju regent and the most powerful warlord of the era's final decades.",
+    deathDetail: "Deposed 1851 by Ras Ali II himself when Kassa Hailu's growing power required political maneuvering. Fate after deposition unknown.",
+    weirdStory: "He watched from his palace as Kassa Hailu systematically defeated every warlord in the country and moved closer to Gondar. He had no power to stop it. He could only watch the era end from his puppet throne.",
+    plots: "Kassa Hailu's rise was the greatest threat. Ras Ali II tried to co-opt Kassa by having his mother arrange a marriage between Kassa and Ali's daughter — it didn't stop him.",
+    wars: "All fought by Ras Ali II against Kassa Hailu. Including the Battle of Ayshal where Kassa finally defeated Ali II completely in 1853.",
+    achievements: "None personally.",
+    children: "Unknown.",
+    controlledBy: "Ras Ali II"
+  },
+  sahelaDengel: {
+    reignSummary: "Two reigns. The second ended when Tewodros II crowned himself emperor in 1855 — making Sahela Dengel the last puppet emperor of the Zemene Mesafint.",
+    riseToPower: "Installed by Ras Ali II during the Yejju's final dominant period. A young Solomonic prince placed as legitimizing figurehead.",
+    deathDetail: "Deposed by Tewodros II in 1855 — not murdered, but permanently removed as Tewodros II reunified the empire. Survived to see the era he embodied end.",
+    weirdStory: "He was emperor when Kassa Hailu crowned himself Tewodros II on February 11, 1855. He was sitting on a throne that ceased to exist that day. The last puppet watched the puppeteer system destroy itself.",
+    plots: "Kassa Hailu was the final plot. He married Ras Ali II's daughter, then turned on Ali, defeated him, and ended everything.",
+    wars: "Battle of Ayshal 1853 — Kassa defeats Ras Ali II. Battle of Derasge 1855 — Kassa completes conquest. Sahela Dengel had no role in either.",
+    achievements: "None personally. His existence as final puppet gave Tewodros II a legitimate throne to formally take over.",
+    children: "Unknown.",
+    controlledBy: "Ras Ali II"
+  },
+  rasGugsa: {
+    reignSummary: "Regent/Enderase. Never took the throne but controlled everything. Subdued Gojjam and Tigray. Ran all of northern Ethiopia. Installed and removed emperors at will.",
+    riseToPower: "Nephew of Ras Ali I. Seized regency after Ali I's decline. Became the most powerful man in Ethiopia without ever wearing a crown.",
+    deathDetail: "Died 1825. His death fragmented Yejju unity and opened the door for challenges.",
+    weirdStory: "The peak of Yejju power. He controlled the empire so completely that he didn't need the throne. He was the invisible emperor — the man behind the curtain.",
+    plots: "Maintained control through strategic marriages and military dominance. His death created a power vacuum that eventually allowed Ras Wolde Selassie of Tigray to challenge Yejju supremacy.",
+    wars: "Subdued Gojjam. Fought Ras Wolde Selassie of Tigray. Maintained military dominance across northern Ethiopia.",
+    achievements: "Peak of Yejju Oromo power. Most stable period of the Zemene Mesafint.",
+    children: "Unknown.",
+    controlledBy: null,
+    isWarlord: true
+  },
+  tewodrosII: {
+    reignSummary: "Not a puppet. The first real emperor since Bakaffa. He ended the era by force on February 11, 1855.",
+    riseToPower: "Born Kassa Hailu in Qwara, 1818. Father: minor local chief. Lost his inheritance as a child. Educated in a monastery. Became a bandit. His band grew into an army. Defeated every major warlord in succession: Battle of Gur Amba 1852, Battle of Ayshal 1853 (defeats Ras Ali II), Battle of Derasge 1855. Crowned himself Emperor February 11, 1855 fulfilling a 400-year-old Ethiopian prophecy that a king named Tewodros would restore the empire.",
+    deathDetail: "Died by suicide April 13, 1868 at the Battle of Magdala when British forces under General Napier stormed his mountain fortress. He shot himself rather than be captured. He was 50.",
+    weirdStory: "He married Ras Ali II's daughter as a political move — then destroyed her father's entire power structure. He rose from bandit to emperor to end 86 years of chaos. And then a British army came and he killed himself on a mountain rather than surrender.",
+    plots: "The British Expedition of 1868 came because Tewodros imprisoned British diplomats. He had sent a letter to Queen Victoria asking for alliance and got no reply. He imprisoned the British consul in rage. Britain sent 13,000 soldiers to rescue them.",
+    wars: "All battles of 1852–1855 unifying Ethiopia. Multiple campaigns to suppress regional lords throughout his reign. Battle of Magdala 1868 vs British forces.",
+    achievements: "Ended ዘመነ መሳፍንት. Reunified Ethiopia under one authority. Began modernization efforts. First emperor to attempt to create a standing national army. Abolished the slave trade in his domains.",
+    children: "Meshesha (son, died young), Alemayehu (son, taken to England by British after Magdala — died in England aged 18, buried at Windsor Castle).",
+    controlledBy: null,
+    isTheEnd: true
+  }
+};
